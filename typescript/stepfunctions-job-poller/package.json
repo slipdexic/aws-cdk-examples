@@ -1,6 +1,6 @@
 {
   "name": "stepfunctions-job-poller",
-  "version": "0.23.0",
+  "version": "1.0.0",
   "description": "A simple StepFunctions demo",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@aws-cdk/aws-stepfunctions": "*",
-    "@aws-cdk/cdk": "*"
+    "@aws-cdk/aws-stepfunctions-tasks": "*",
+    "@aws-cdk/core": "*"
   }
 }
